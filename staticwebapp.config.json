@@ -5,7 +5,7 @@
 		"allowedRoles": ["authenticated"],
 		"headers": {
         "Cache-Control": "no-store",
-		"X-Forwarded-Host": "https://fd-swa-6263-ekdza7greeh6c6fw.z01.azurefd.net"
+		"X-Forwarded-Host": "fd-swa-6263-ekdza7greeh6c6fw.z01.azurefd.net"
       }
 	}
 	],
@@ -23,7 +23,7 @@
 	},
 	"forwardingGateway": {
 		"allowedForwardedHosts": [
-			"https://fd-swa-6263-ekdza7greeh6c6fw.z01.azurefd.net"
+			"fd-swa-6263-ekdza7greeh6c6fw.z01.azurefd.net"
 		]
 	}
 }
