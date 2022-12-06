@@ -17,7 +17,7 @@
 		"rewrite": "/index.html"
 	},
 	"networking": {
-		"allowedIpRanges": ["AzureFrontDoor.Backend",
+		"allowedIpRanges": [
 			"AzureActiveDirectory",
 			"AzureInformationProtection"
 		]
