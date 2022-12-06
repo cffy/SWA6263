@@ -1,18 +1,4 @@
 {
-	"routes": [{
-		"route": "/*",
-		"allowedRoles": ["authenticated"],
-		"headers": {
-			"Cache-Control": "no-store",
-			"X-Forwarded-Host": "fd-swa-6263-ekdza7greeh6c6fw.z01.azurefd.net"
-		}
-	}],
-	"responseOverrides": {
-		"401": {
-			"statusCode": 302,
-			"redirect": "/.auth/login/aad"
-		}
-	},
 	"navigationFallback": {
 		"rewrite": "/index.html"
 	},
