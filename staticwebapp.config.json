@@ -13,6 +13,9 @@
 			"redirect": "/.auth/login/aad"
 		}
 	},
+	"networking": {
+		"allowedIpRanges": ["AzureFrontDoor.Backend"]
+	},
 	"navigationFallback": {
 		"rewrite": "/index.html"
 	},
