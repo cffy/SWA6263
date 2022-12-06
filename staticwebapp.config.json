@@ -18,7 +18,9 @@
 	},
 	"networking": {
 		"allowedIpRanges": ["AzureFrontDoor.Backend",
-			"AzureActiveDirectory"
+			"AzureActiveDirectory",
+			"https://identity.2.azurestaticapps.net/.auth/login/done",
+			"identity.2.azurestaticapps.net"
 		]
 	},
 	"forwardingGateway": {
