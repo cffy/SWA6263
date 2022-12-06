@@ -19,7 +19,7 @@
 	"networking": {
 		"allowedIpRanges": ["AzureFrontDoor.Backend",
 			"AzureActiveDirectory",
-			"https://identity.2.azurestaticapps.net/.auth/login/done",
+			"identity.2.azurestaticapps.net/.auth/login/done",
 			"identity.2.azurestaticapps.net"
 		]
 	},
