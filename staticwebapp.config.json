@@ -19,7 +19,7 @@
 	},
 	"forwardingGateway": {
 		"allowedForwardedHosts": [
-			"https://fd-swa-6263-ekdza7greeh6c6fw.z01.azurefd.net"
+			"fd-swa-6263-ekdza7greeh6c6fw.z01.azurefd.net"
 		]
 	}
 }
