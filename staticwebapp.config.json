@@ -1,18 +1,29 @@
 {
-	"routes": [{
-		"route": "/*",
-		"allowedRoles": ["authenticated"],
-	}],
-	"responseOverrides": {
-		"401": {
-			"statusCode": 302,
-			"redirect": "/.auth/login/aad"
-		}
-	},
-	"networking": {
-		"allowedIpRanges": ["AzureFrontDoor.Backend"]
-	},
-	"navigationFallback": {
-		"rewrite": "/index.html"
-	}
+   "routes":[
+      {
+         "route":"/*",
+         "allowedRoles":[
+            "authenticated"
+         ]
+      }
+   ],
+   "responseOverrides":{
+      "401":{
+         "statusCode":302,
+         "redirect":"/.auth/login/aad"
+      }
+   },
+   "networking":{
+      "allowedIpRanges":[
+         "AzureFrontDoor.Backend"
+      ]
+   },
+   "navigationFallback":{
+      "rewrite":"/index.html"
+   },
+   "forwardingGateway":{
+      "allowedForwardedHosts":[
+         "fd-swa-6263-ekdza7greeh6c6fw.z01.azurefd.net"
+      ]
+   }
 }
