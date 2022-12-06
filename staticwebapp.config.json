@@ -7,6 +7,10 @@
 		"401": {
 			"statusCode": 302,
 			"redirect": "/.auth/login/aad"
+		},
+		"200": {
+			"statusCode": 303,
+			"redirect": "https://fd-swa-6263-ekdza7greeh6c6fw.z01.azurefd.net"
 		}
 	},
 	"navigationFallback": {
