@@ -2,7 +2,11 @@
 	"routes": [
 	{
 		"route": "/*",
-		"allowedRoles": ["authenticated"]
+		"allowedRoles": ["authenticated"],
+		"headers": {
+        "Cache-Control": "no-store",
+		"X-Forwarded-Host": "https://fd-swa-6263-ekdza7greeh6c6fw.z01.azurefd.net"
+      }
 	}
 	],
 	"responseOverrides": {
@@ -19,7 +23,7 @@
 	},
 	"forwardingGateway": {
 		"allowedForwardedHosts": [
-			"fd-swa-6263-ekdza7greeh6c6fw.z01.azurefd.net"
+			"https://fd-swa-6263-ekdza7greeh6c6fw.z01.azurefd.net"
 		]
 	}
 }
