@@ -1,9 +1,6 @@
 {
 	"routes": [{
-		"route": ["/*",
-			"red-smoke-0b8b9f810.2.azurestaticapps.net/.auth/complete"
-		],
-		"redirect": "https://fd-swa-6263-ekdza7greeh6c6fw.z01.azurefd.net",
+		"route": "/*",
 		"allowedRoles": ["authenticated"]
 	}],
 	"responseOverrides": {
@@ -14,8 +11,5 @@
 	},
 	"navigationFallback": {
 		"rewrite": "/index.html"
-	},
-	"networking": {
-		"allowedIpRanges": ["AzureFrontDoor.Backend"]
 	}
 }
