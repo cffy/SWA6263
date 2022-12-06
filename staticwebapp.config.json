@@ -14,6 +14,9 @@
 	"navigationFallback": {
 		"rewrite": "/index.html"
 	},
+	"networking": {
+		"allowedIpRanges": ["AzureFrontDoor.Backend"]
+	},
 	"forwardingGateway": {
 		"allowedForwardedHosts": [
 			"https://fd-swa-6263-ekdza7greeh6c6fw.z01.azurefd.net"
