@@ -18,8 +18,7 @@
 	},
 	"networking": {
 		"allowedIpRanges": ["AzureFrontDoor.Backend",
-			"AzureActiveDirectory",
-			"identity.2.azurestaticapps.net"
+			"AzureActiveDirectory"
 		]
 	},
 	"forwardingGateway": {
