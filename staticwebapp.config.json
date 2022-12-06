@@ -1,17 +1,17 @@
 {
-	"routes": [{
+	"routes": [
+	{
 		"route": "/*",
 		"allowedRoles": ["authenticated"]
-	}],
+	},
+		"route": "red-smoke-0b8b9f810.2.azurestaticapps.net/.auth/complete",
+		"redirect": "https://fd-swa-6263-ekdza7greeh6c6fw.z01.azurefd.net"		
+	],
 	"responseOverrides": {
 		"401": {
 			"statusCode": 302,
 			"redirect": "/.auth/login/aad"
-		},
-		"200": {
-			"statusCode": 303,
-			"redirect": "https://fd-swa-6263-ekdza7greeh6c6fw.z01.azurefd.net"
-		}
+		}		
 	},
 	"navigationFallback": {
 		"rewrite": "/index.html"
