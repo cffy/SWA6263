@@ -22,6 +22,9 @@
       "rewrite":"/index.html"
    },
    "forwardingGateway":{
+      "requiredHeaders": {
+         "X-Azure-FDID" : "725342e0-eb7f-4bfa-8d14-df59619bd691"
+      },
       "allowedForwardedHosts":[
          "fd-swa-6263-ekdza7greeh6c6fw.z01.azurefd.net"
       ]
