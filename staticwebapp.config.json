@@ -15,11 +15,6 @@
 			"redirect": "/.auth/login/aad?post_login_redirect_uri=https://fd-swa-6263-ekdza7greeh6c6fw.z01.azurefd.net/success"
 		}
 	},
-	"networking": {
-		"allowedIpRanges": [
-			"AzureFrontDoor.Backend"
-		]
-	},
 	"navigationFallback": {
 		"rewrite": "/index.html"
 	},
